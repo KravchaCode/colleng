@@ -1,0 +1,106 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+eader
+{
+	background: transparent;
+	display: block;
+}
+header div
+{
+	margin: 0px auto;
+	background: transparent;
+	width: 1100px;
+	display: grid;
+	grid-template-columns: 40% 20% 40%;
+}
+header div dl
+{
+	display: inline-block;
+}
+	header div dl:nth-child(1) /* 1 блок навигация */
+	{
+		background: transparent;
+	}
+	header div dl:nth-child(2) /* 2 блок ЛОГО */
+	{
+		background: transparent;
+	}
+	header div dl:nth-child(3) /* 3 блок навигация */
+	{
+		background: transparent;
+	}
+header div dl ul
+{
+	background: transparent;
+	width: 100%;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 0px;
+	display: flex;
+	justify-content: center;
+	line-height: 70px;
+	position: relative;
+}
+	header div dl:nth-child(1) ul /* 1 UL */
+	{
+		background: transparent;
+	}
+	header div dl:nth-child(2) ul /* 2 UL ЛОГО */
+	{
+		background: transparent;
+	}
+		header div dl:nth-child(2) ul a /* 2 UL ЛОГО */
+		{
+			position: relative;
+			background: transparent;
+			height: 211px;
+			border-radius: 0px;
+			border: 0px;
+			color: transparent;
+			box-shadow: 0px 0px 0px transparent;
+		}
+			header div dl:nth-child(2) ul img /* 2 UL ЛОГО */
+			{
+				/*Для старого лого*/
+				/*position: absolute;
+				left: -25px;
+				top: -10px;
+				height: 70px;*/
+
+				/*Для нового лого*/
+				position: absolute;
+				left: -30px;
+				top: -3px;
+				/*height: 50px;*/
+				
+
+			}
+	header div dl:nth-child(3) ul /* 3 UL навигация */
+	{
+		background: transparent;
+	}
+header div dl li
+{
+	background: transparent;
+	list-style: none;
+	display: inline-block;
+}
+header div dl li a
+{
+	margin: 0px 10px 0px 10px;
+	background: #facc73;
+	color: #000;
+	border-radius: 50px;
+	border: 0.5px solid #000;
+	padding: 12px 48px;
+	box-shadow: 0px 0px 0px transparent;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
